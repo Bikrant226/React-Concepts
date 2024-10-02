@@ -3,7 +3,7 @@ let numberOfChocolates=0;
 
 function Chocolates(){
     numberOfChocolates=numberOfChocolates+1;  //BAD:Chocolates component is modifying the outside variable 
-    return <h2>I have {numberOfChocolates} with me!</h2>
+    return <p>I have {numberOfChocolates} Chocolates with me!</p>
 }
 
 function ImpureComponent() {
